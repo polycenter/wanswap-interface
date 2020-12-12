@@ -8,9 +8,9 @@
       }
 
       .cls-1, .cls-2 {
-        stroke: #000;
-        stroke-width: 1px;
-        font-size: 80px;
+        stroke: #fff;
+        stroke-width: 3px;
+        font-size: 90px;
         filter: url(#filter-2);
         fill: #fefefe;
         text-anchor: middle;
