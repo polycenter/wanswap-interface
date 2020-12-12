@@ -9,12 +9,12 @@
 
       .cls-1, .cls-2 {
         stroke: #000;
-        stroke-width: 1px;
+        stroke-width: 5px;
       }
 
       .cls-1, .cls-2 {
         stroke-linejoin: round;
-        font-size: 35px;
+        font-size: 40px;
         filter: url(#filter-2);
         fill: #fefefe;
         text-anchor: middle;
