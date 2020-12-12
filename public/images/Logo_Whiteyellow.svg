@@ -1,9 +1,8 @@
-
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="676" height="225" viewBox="0 0 776 225">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="676" height="225" viewBox="0 0 676 225">
   <defs>
     <style>
       .cls-1 {
-        fill: #2c38d9;
+        fill: #fff;
         fill-rule: evenodd;
         filter: url(#filter);
       }
