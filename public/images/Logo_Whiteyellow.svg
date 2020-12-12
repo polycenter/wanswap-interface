@@ -9,7 +9,12 @@
 
       .cls-1, .cls-2 {
         stroke: #000;
-        stroke-width: 5px;
+        stroke-width: 1px;
+        font-size: 80px;
+        filter: url(#filter-2);
+        fill: #fefefe;
+        text-anchor: middle;
+        font-family: "Bookman Old Style";
       }
 
       .cls-1, .cls-2 {
