@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="578" height="211" viewBox="0 0 578 211">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="578" height="311" viewBox="0 0 578 211">
   <defs>
     <style>
       .cls-1 {
@@ -21,12 +21,12 @@
         font-family: "Bookman Old Style";
       }
     </style>
-    <filter id="filter" x="129.344" y="124.5" width="317.219" height="73.719" filterUnits="userSpaceOnUse">
+    <filter id="filter" x="129.344" y="124.5" width="317.219" height="43.719" filterUnits="userSpaceOnUse">
       <feFlood result="flood"/>
       <feComposite result="composite" operator="in" in2="SourceGraphic"/>
       <feBlend result="blend" in2="SourceGraphic"/>
     </filter>
-    <filter id="filter-2" x="12" y="169" width="553" height="73" filterUnits="userSpaceOnUse">
+    <filter id="filter-2" x="12" y="169" width="553" height="23" filterUnits="userSpaceOnUse">
       <feFlood result="flood"/>
       <feComposite result="composite" operator="in" in2="SourceGraphic"/>
       <feBlend result="blend" in2="SourceGraphic"/>
