@@ -54,6 +54,7 @@ function Updaters() {
 }
 
 ReactDOM.render(
+  <>
     <FixedGlobalStyle />
     <Web3ReactProvider getLibrary={getLibrary}>
       <Web3ProviderNetwork getLibrary={getLibrary}>
@@ -68,5 +69,6 @@ ReactDOM.render(
         </Provider>
       </Web3ProviderNetwork>
     </Web3ReactProvider>,
+  </>
   document.getElementById('root')
 )
