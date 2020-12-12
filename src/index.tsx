@@ -68,7 +68,7 @@ ReactDOM.render(
           </ThemeProvider>
         </Provider>
       </Web3ProviderNetwork>
-    </Web3ReactProvider>,
-  </>
+    </Web3ReactProvider>
+  </>,
   document.getElementById('root')
 )
