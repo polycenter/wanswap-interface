@@ -1,25 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="776" height="225" viewBox="0 0 776 225">
-  <defs>
-    <style>
-      .cls-1 {
-        fill: #2c38d9;
-        fill-rule: evenodd;
-        filter: url(#filter);
-      }
-
-      .cls-1, .cls-2 {
-        stroke: #000;
-        stroke-width: 1px;
-      }
-
-      .cls-2 {
-        stroke-linejoin: round;
-        font-size: 40px;
-        fill: #fefefe;
-        text-anchor: middle;
-        font-family: "Bookman Old Style";
-      }
-    </style>
+  
     <filter id="filter" x="193.813" y="140.781" width="388.031" height="47.532" filterUnits="userSpaceOnUse">
       <feFlood result="flood" flood-color="#fff"/>
       <feComposite result="composite" operator="in" in2="SourceGraphic"/>
