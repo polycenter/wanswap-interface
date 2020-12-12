@@ -4,7 +4,7 @@
       .cls-1, .cls-2 {
         stroke: #fff;
         stroke-width: 1px;
-        fill: #fefefe;
+        fill: #fff;
       }
 
       .cls-1 {
@@ -44,7 +44,7 @@
       <feBlend result="blend" in2="SourceGraphic"/>
     </filter>
   </defs>
-  <g transform="translate(285.088 204.439) scale(0.497 1.145)" style="fill: #fefefe; filter: url(#filter)">
+  <g transform="translate(285.088 204.439) scale(0.497 1.145)" style="fill: #fff; filter: url(#filter)">
     <text id="NEXT_GENERATION_AMM_PROTOCOL_BY_MUTUALDEX" data-name="NEXT GENERATION AMM PROTOCOL BY MUTUALDEX" class="cls-1" style="stroke: inherit; filter: none; fill: inherit"><tspan x="0">NEXT GENERATION AMM PROTOCOL BY MUTUALDEX</tspan></text>
   </g>
   <use transform="translate(285.088 204.439) scale(0.497 1.145)" xlink:href="#NEXT_GENERATION_AMM_PROTOCOL_BY_MUTUALDEX" style="stroke: #fff; filter: none; fill: #fff"/>
