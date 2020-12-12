@@ -14,14 +14,14 @@
 
       .cls-2 {
         stroke-linejoin: round;
-        font-size: 60px;
+        font-size: 40px;
         filter: url(#filter-2);
         fill: #fefefe;
         text-anchor: middle;
         font-family: "Bookman Old Style";
       }
     </style>
-    <filter id="filter" x="129.344" y="124.5" width="317.219" height="43.719" filterUnits="userSpaceOnUse">
+    <filter id="filter" x="129.344" y="124.5" width="317.219" height="63.719" filterUnits="userSpaceOnUse">
       <feFlood result="flood"/>
       <feComposite result="composite" operator="in" in2="SourceGraphic"/>
       <feBlend result="blend" in2="SourceGraphic"/>
