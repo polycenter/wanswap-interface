@@ -12,9 +12,9 @@
         stroke-width: 1px;
       }
 
-      .cls-2 {
+      .cls-1, .cls-2 {
         stroke-linejoin: round;
-        font-size: 80px;
+        font-size: 35px;
         filter: url(#filter-2);
         fill: #fefefe;
         text-anchor: middle;
