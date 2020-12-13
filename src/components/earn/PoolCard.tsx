@@ -146,15 +146,15 @@ export default function PoolCard({ stakingInfo }: { stakingInfo: StakingInfo }) 
               ? `$${valueOfTotalStakedAmountInUSDC.toSignificant(6, { groupSeparator: ',' })}`
               //  +
               //   ' / ' +
-              //   `${valueOfTotalStakedAmountInWLSP?.toSignificant(6, { groupSeparator: ',' }) ?? '-'} WSLP`
-              : `${valueOfTotalStakedAmountInWLSP?.toSignificant(6, { groupSeparator: ',' }) ?? '-'} WSLP`}
+              //   `${valueOfTotalStakedAmountInWLSP?.toSignificant(6, { groupSeparator: ',' }) ?? '-'} BGLP`
+              : `${valueOfTotalStakedAmountInWLSP?.toSignificant(6, { groupSeparator: ',' }) ?? '-'} BGLP`}
           </TYPE.white>
         </RowBetween>
         <RowBetween>
           <TYPE.white> Pool rate </TYPE.white>
           <TYPE.white>{`${stakingInfo.totalRewardRate
             ?.multiply(`${60 * 60 * 24 * 7}`)
-            ?.toFixed(0, { groupSeparator: ',' })} WASP / week`}</TYPE.white>
+            ?.toFixed(0, { groupSeparator: ',' })} BGSP / week`}</TYPE.white>
         </RowBetween>
       </StatContainer>
 
@@ -172,7 +172,7 @@ export default function PoolCard({ stakingInfo }: { stakingInfo: StakingInfo }) 
               </span>
               {`${stakingInfo.rewardRate
                 ?.multiply(`${60 * 60 * 24 * 7}`)
-                ?.toFixed(0, { groupSeparator: ',' })} WASP / week`}
+                ?.toFixed(0, { groupSeparator: ',' })} BGSP / week`}
             </TYPE.black>
           </BottomSection>
         </>
