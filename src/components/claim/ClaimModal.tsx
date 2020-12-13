@@ -98,11 +98,11 @@ export default function ClaimModal() {
             <CardNoise />
             <CardSection gap="md">
               <RowBetween>
-                <TYPE.white fontWeight={500}>Claim WASP</TYPE.white>
+                <TYPE.white fontWeight={500}>Claim BGSP</TYPE.white>
                 <CloseIcon onClick={toggleClaimModal} style={{ zIndex: 99 }} color="white" />
               </RowBetween>
               <TYPE.white fontWeight={700} fontSize={36}>
-                {unclaimedAmount?.toFixed(0, { groupSeparator: ',' } ?? '-')} WASP
+                {unclaimedAmount?.toFixed(0, { groupSeparator: ',' } ?? '-')} BGSP
               </TYPE.white>
             </CardSection>
             <Break />
@@ -110,7 +110,7 @@ export default function ClaimModal() {
               {userClaimData?.flags?.isSOCKS && (
                 <RowBetween>
                   <TYPE.subHeader color="white">SOCKS</TYPE.subHeader>
-                  <TYPE.subHeader color="white">{SOCKS_AMOUNT} WASP</TYPE.subHeader>
+                  <TYPE.subHeader color="white">{SOCKS_AMOUNT} BGSP</TYPE.subHeader>
                 </RowBetween>
               )}
               {userClaimData?.flags?.isLP &&
@@ -129,15 +129,15 @@ export default function ClaimModal() {
               {userClaimData?.flags?.isUser && (
                 <RowBetween>
                   <TYPE.subHeader color="white">User</TYPE.subHeader>
-                  <TYPE.subHeader color="white">{USER_AMOUNT} WASP</TYPE.subHeader>
+                  <TYPE.subHeader color="white">{USER_AMOUNT} BGSP</TYPE.subHeader>
                 </RowBetween>
               )}
             </CardSection>
           </ModalUpper>
           <AutoColumn gap="md" style={{ padding: '1rem', paddingTop: '0' }} justify="center">
             <TYPE.subHeader fontWeight={500}>
-              As a member of the Wanswap community you may claim WASP to be used for voting and governance. <br /> <br />
-              <ExternalLink href="https://uniswap.org/blog/uni">Read more about WASP</ExternalLink>
+              As a member of the BIGswap community you may claim BGSP to be used for voting and governance. <br /> <br />
+              <ExternalLink href="https://uniswap.org/blog/uni">Read more about BGSP</ExternalLink>
             </TYPE.subHeader>
             <ButtonPrimary
               disabled={!isAddress(account ?? '')}
@@ -147,7 +147,7 @@ export default function ClaimModal() {
               mt="1rem"
               onClick={onClaim}
             >
-              Claim WASP
+              Claim BGSP
             </ButtonPrimary>
           </AutoColumn>
         </ContentWrapper>
