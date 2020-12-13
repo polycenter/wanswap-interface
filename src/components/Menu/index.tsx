@@ -103,19 +103,19 @@ export default function Menu() {
 
       {open && (
         <MenuFlyout>
-          <MenuItem id="link" href="https://twitter.com/wanswap">
+          <MenuItem id="link" href="https://twitter.com/bigswap">
             <Info size={14} />
             Twitter
           </MenuItem>
-          <MenuItem id="link" href="https://medium.com/wanswap">
+          <MenuItem id="link" href="https://medium.com/bigswap">
             <BookOpen size={14} />
             Docs
           </MenuItem>
-          <MenuItem id="link" href="https://github.com/wanswap">
+          <MenuItem id="link" href="https://github.com/bigswap">
             <Code size={14} />
             Code
           </MenuItem>
-          { <MenuItem id="link" href="https://t.me/wanswap_official">
+          { <MenuItem id="link" href="https://t.me/bigswap_official">
             <MessageCircle size={14} />
             Telegram
           </MenuItem>
