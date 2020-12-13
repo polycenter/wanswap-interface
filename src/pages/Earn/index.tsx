@@ -51,11 +51,11 @@ export default function Earn() {
           <CardSection>
             <AutoColumn gap="md">
               <RowBetween>
-                <TYPE.white fontWeight={600}>Wanswap liquidity mining</TYPE.white>
+                <TYPE.white fontWeight={600}>Bigswap liquidity mining</TYPE.white>
               </RowBetween>
               <RowBetween>
                 <TYPE.white fontSize={14}>
-                  Deposit your Liquidity Provider tokens to receive WASP, the Wanswap protocol governance token.
+                  Deposit your Liquidity Provider tokens to receive BGSP, the Bigswap protocol governance token.
                 </TYPE.white>
               </RowBetween>{' '}
               <ExternalLink
@@ -63,7 +63,7 @@ export default function Earn() {
                 href="https://medium.com/wanswap/introducing-wanswap-the-wanchain-based-cross-chain-decentralized-exchange-with-automated-market-5e5f5956c223"
                 target="_blank"
               >
-                <TYPE.white fontSize={14}>Read more about WASP</TYPE.white>
+                <TYPE.white fontSize={14}>Read more about BGSP</TYPE.white>
               </ExternalLink>
             </AutoColumn>
           </CardSection>
