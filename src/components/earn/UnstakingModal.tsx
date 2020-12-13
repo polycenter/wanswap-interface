@@ -90,11 +90,11 @@ export default function UnstakingModal({ isOpen, onDismiss, stakingInfo }: Staki
               <TYPE.body fontWeight={600} fontSize={36}>
                 {<FormattedCurrencyAmount currencyAmount={stakingInfo?.earnedAmount} />}
               </TYPE.body>
-              <TYPE.body>Unclaimed WASP</TYPE.body>
+              <TYPE.body>Unclaimed BGSP</TYPE.body>
             </AutoColumn>
           )}
           <TYPE.subHeader style={{ textAlign: 'center' }}>
-            When you withdraw, your WASP is claimed and your liquidity is removed from the mining pool.
+            When you withdraw, your BGSP is claimed and your liquidity is removed from the mining pool.
           </TYPE.subHeader>
           <ButtonError disabled={!!error} error={!!error && !!stakingInfo?.stakedAmount} onClick={onWithdraw}>
             {error ?? 'Withdraw & Claim'}
@@ -104,8 +104,8 @@ export default function UnstakingModal({ isOpen, onDismiss, stakingInfo }: Staki
       {attempting && !hash && (
         <LoadingView onDismiss={wrappedOndismiss}>
           <AutoColumn gap="12px" justify={'center'}>
-            <TYPE.body fontSize={20}>Withdrawing {stakingInfo?.stakedAmount?.toSignificant(4)} WSLP</TYPE.body>
-            <TYPE.body fontSize={20}>Claiming {stakingInfo?.earnedAmount?.toSignificant(4)} WASP</TYPE.body>
+            <TYPE.body fontSize={20}>Withdrawing {stakingInfo?.stakedAmount?.toSignificant(4)} BGLP</TYPE.body>
+            <TYPE.body fontSize={20}>Claiming {stakingInfo?.earnedAmount?.toSignificant(4)} BGSP</TYPE.body>
           </AutoColumn>
         </LoadingView>
       )}
@@ -113,8 +113,8 @@ export default function UnstakingModal({ isOpen, onDismiss, stakingInfo }: Staki
         <SubmittedView onDismiss={wrappedOndismiss} hash={hash}>
           <AutoColumn gap="12px" justify={'center'}>
             <TYPE.largeHeader>Transaction Submitted</TYPE.largeHeader>
-            <TYPE.body fontSize={20}>Withdrew WSLP!</TYPE.body>
-            <TYPE.body fontSize={20}>Claimed WASP!</TYPE.body>
+            <TYPE.body fontSize={20}>Withdrew BGLP!</TYPE.body>
+            <TYPE.body fontSize={20}>Claimed BGSP!</TYPE.body>
           </AutoColumn>
         </SubmittedView>
       )}
