@@ -301,7 +301,7 @@ export default function Header() {
       <Modal isOpen={showUniBalanceModal} onDismiss={() => setShowUniBalanceModal(false)}>
         <UniBalanceContent setShowUniBalanceModal={setShowUniBalanceModal} />
       </Modal>
-      <img id="logo-full" style={{display:'none'}} height={'60px'} src="./images/Logo_Whiteyellow.svg" alt="logo" />
+      <img id="logo-full" style={{display:'none'}} height={'80px'} src="./images/Logo_Whiteyellow.svg" alt="logo" />
       <HeaderRow>
       
         <Title href="." id="logo-wrapper">
@@ -355,7 +355,7 @@ export default function Header() {
             <UNIWrapper onClick={toggleClaimModal}>
               <UNIAmount active={!!account && !availableClaim} style={{ pointerEvents: 'auto' }}>
                 <TYPE.white padding="0 2px">
-                  {claimTxn && !claimTxn?.receipt ? <Dots>Claiming WASP</Dots> : 'Claim WASP'}
+                  {claimTxn && !claimTxn?.receipt ? <Dots>Claiming BGSP</Dots> : 'Claim BGSP'}
                 </TYPE.white>
               </UNIAmount>
               <CardNoise />
@@ -406,7 +406,7 @@ export default function Header() {
                 <img style={{marginLeft:'-10px',marginRight:'5px'}} height={'52px'} src="./images/Logomark_WASP_token.svg" alt="logo" />
                 
               }
-                WASP
+                BGSP
               </UNIAmount>
               <CardNoise />
             </UNIWrapper>
